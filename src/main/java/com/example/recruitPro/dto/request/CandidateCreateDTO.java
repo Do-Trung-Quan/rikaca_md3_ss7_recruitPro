@@ -25,6 +25,6 @@ public class CandidateCreateDTO {
     @PositiveOrZero
     private int yearsOfExperience;
 
-    @Pattern(regexp = "^0[35789]\\\\d{8}$", message = "Số điện thoại không hợp lệ")
+    @Pattern(regexp = "^0[35789]\\d{8}$", message = "Số điện thoại không hợp lệ")
     private String tel;
 }
